@@ -58,7 +58,7 @@ function submitEmerForm(){
 document.getElementById("submitEmergForm").addEventListener("click", submitEmerForm());
 
 //OPEN CAGE API -- to convert longitude and latitude to formatted address
-const open_cage_apikey = 'a4f3a27c2d8b4909ac931ca4dfa5c2eb';
+const open_cage_apikey = 'ENTER YOUR OPEN API HERE';
 
 var api_url = 'https://api.opencagedata.com/geocode/v1/json'
 
@@ -98,8 +98,7 @@ request.send();
 
 //Get nearby places using google places API
 
-//const google_map_apiKey="AIzaSyA8usj5drF6yzWj2RTZKA3v6dYXo-Y98s4";
-const google_map_apiKey="AIzaSyCYoXYOQAcYfCEHnAAetDKVpVhYViCiv6E";
+const google_map_apiKey="ENTER YOUR GOOGLE MAP API HERE";
 
 
 //A general function to get places as requested by search query
